@@ -20,4 +20,6 @@ document.getElementById('reportForm').addEventListener('submit', function (event
     // Clear form after submission (if needed)
     document.getElementById('reportForm').reset();
   });
-  
+  function goHome() {
+    window.location.href = 'minorhome.html';  
+  }
