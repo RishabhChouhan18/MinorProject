@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2d2c2c;
+    font-size: 2.5em;
+  }
+  
+  /* Home Button Styles */
+  #homeButton {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  #homeButton:hover {
+    background-color: #218838;
+  }
+  
+  /* Form Styles */
+  .report-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .report-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .report-form input,
+  .report-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .report-form input[type="text"],
+  .report-form input[type="file"] {
+    width: 100%;
+  }
+  
+  .report-form textarea {
+    height: 100px;
+  }
+  
+  button {
+    background-color: #0a0605;
+    color: #fff;
+    padding: 12px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0c0907;
+  }
+  
+  /* Confirmation Message Styles */
+  #confirmationMessage {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    display: none;
+  }
+  

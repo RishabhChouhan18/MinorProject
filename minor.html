@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community Reporting Platform</title>
+  <link rel="stylesheet" href="minor.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Community Reporting Platform</h1>
+
+    <!-- Home Button -->
+    <button id="homeButton" onclick="goHome()">Go to Home</button>
+    
+    <form id="reportForm" class="report-form">
+      <label for="title">Report Title:</label>
+      <input type="text" id="title" name="title" placeholder="Enter report title" required>
+
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" placeholder="Enter detailed description of the report" required></textarea>
+
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" placeholder="Enter location" required>
+
+      <label for="imageUpload">Upload Image:</label>
+      <input type="file" id="imageUpload" name="imageUpload" accept="image/*">
+
+      <button type="submit">Submit Report</button>
+    </form>
+
+    <div id="confirmationMessage"></div>
+  </div>
+
+  <script src="minor.js"></script>
+</body>
+</html>
